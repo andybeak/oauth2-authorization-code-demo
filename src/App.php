@@ -139,9 +139,7 @@ class App
 
         return json_decode($textResponse, true);
     }
-
-    // ---------- Setters
-
+    
     /**
      * Clear the session to allow us to retry authorizing
      */
