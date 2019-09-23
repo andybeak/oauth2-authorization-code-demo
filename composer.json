@@ -1,0 +1,26 @@
+{
+    "name": "andybeak/oauth2-authorization-code-demo",
+    "description": "This project connects to Blizzard BattleNet using the OAuth2 authorization code grant flow",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Beak",
+            "email": "andy.beak@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "depotwarehouse/oauth2-bnet": "dev-master",
+        "vlucas/phpdotenv": "^3.6@dev",
+        "pimple/pimple": "^3.2@dev",
+        "monolog/monolog": "^2.0@dev",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Demo\\":"src/"
+        }
+    }
+}

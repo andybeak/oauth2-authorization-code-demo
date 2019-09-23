@@ -1,0 +1,6 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+
+# We do this so we commit the "empty" directory and avoid having our code crash because it doesn't exist
